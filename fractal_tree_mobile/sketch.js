@@ -2,7 +2,7 @@ var tree =[];
 var leaves = [];
 var count =0;
 function setup() {
-  createCanvas(400,400);
+  createCanvas(displayWidth,displayHeight);
   var a = createVector(width / 2,height);
   var b = createVector(width / 2,height - 60);
   var root = new Branch(a, b);
