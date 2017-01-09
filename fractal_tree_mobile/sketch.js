@@ -11,7 +11,7 @@ function setup() {
   
 }
 
-   function touchMoved() {
+   function touchStarted() {
    for(var i = tree.length -1; i >= 0; i--) {
      if (!tree[i].finished) {
       tree.push(tree[i].branchA());
